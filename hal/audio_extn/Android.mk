@@ -152,7 +152,8 @@ LOCAL_SHARED_LIBRARIES := \
     libprocessgroup
 
 LOCAL_C_INCLUDES := \
-    hardware/qcom/audio-caf/msm8998 \
+    hardware/qcom/audio-caf/msm8998/hal \
+    hardware/qcom/audio-caf/msm8998/hal/$(AUDIO_PLATFORM) \
     hardware/qcom/audio-caf/msm8998/$(AUDIO_PLATFORM) \
     external/tinyalsa/include \
     external/tinycompress/include \
